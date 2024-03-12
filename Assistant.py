@@ -101,10 +101,8 @@ if __name__ == "__main__":
             # print(feel)
             speak(f"I am feeling {feel}")
             speak(f"what about you {name} ?")
-            u_feel = input()
+            u_feel = listen()
             speak("oh !!")
-
-            # print(type(feelings))
 
         elif 'tell time' in command:
             samay = datetime.datetime.now()
@@ -142,8 +140,10 @@ if __name__ == "__main__":
 
             speak("choose Either Heads or Tails")
             print("'H' for Heads and 'T' for Tails")
+            speak("'H' for Heads and 'T' for Tails")
+            speak("Enter your choice in terminal for accuracy ")
 
-            user = listen()
+            user = input()
 
             if outcome == user:
                 speak(f"{name} wins ")
