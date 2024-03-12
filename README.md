@@ -2,3 +2,5 @@
 made using TTS only (takes input from keyboard, no speech recognizer)
 
 Can respond to various commands given in text format as input via console
+
+used pyttsx3 to convert text - speech
